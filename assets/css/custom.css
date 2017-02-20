@@ -38,6 +38,14 @@ h4 {
     font-size: 18px;
 }
 
+button,
+input,
+.btn,
+a.btn {
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -45,6 +53,10 @@ h4 {
 .btn-danger {
     background-color: #dd5638;
     border-collapse: #d95131;
+}
+
+img {
+    max-width: 100%
 }
 
 
@@ -55,7 +67,6 @@ h4 {
     min-height: 500px;
     padding: 40px 0;
     color: white;
-    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
@@ -115,4 +126,19 @@ h4 {
 
 .hero .btn {
     margin: 0 2% 0 0;
+}
+
+
+/* LAYOUT  */
+
+.optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+.optin p {
+    margin: 7px 0 0 0;
 }
