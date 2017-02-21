@@ -152,7 +152,7 @@ img {
 }
 
 .lead {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -170,6 +170,68 @@ img {
 
 .instructor {
     background: white url(../img/brad-elvis.jpg) 90% -10px no-repeat;
+}
+
+.instructor h2 {
+    margin: 0 0 20px;
+}
+
+.instructor .num {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    background: #dd5638;
+    border-radius: 50%;
+}
+
+.instructor .num span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.instructor .num-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/*  TESTIMONIALS  */
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 60px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0;
+}
+
+blockquote:before {
+    display: none;
 }
 
 
@@ -204,6 +266,43 @@ i.ci {
 
 .ci.ci-instructor {
     background-position: -160px 0;
+}
+
+
+/* MODAL */
+
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-top,
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-bottom {
+    padding-right: 17px;
+}
+
+.modal-content {
+    background: url(../img/tile.jpg) top left repeat;
+}
+
+.badge.social {
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 5px 20px 0;
+    padding: 0;
+    border-radius: 50px;
+    color: white;
+}
+
+.badge.social.twitter:hover {
+    background: #55acee;
+}
+
+.badge.social.facebook:hover {
+    background: #3b5998;
+}
+
+.badge.social.google-plus:hover {
+    background: #db4b39;
 }
 
 
