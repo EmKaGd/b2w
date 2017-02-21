@@ -166,6 +166,13 @@ img {
 }
 
 
+/* Instructor */
+
+.instructor {
+    background: white url(../img/brad-elvis.jpg) 90% -10px no-repeat;
+}
+
+
 /* CUSTOM ICON SPRITES*/
 
 i.ci {
