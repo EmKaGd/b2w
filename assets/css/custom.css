@@ -373,6 +373,33 @@ textarea {
     padding: 6px 12px;
 }
 
+input[type="submit"],
+button[type="submit"] {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    outline: none;
+    border: none;
+    background: #aaa;
+}
+
 
 /*  BLOG  */
 
@@ -515,6 +542,19 @@ textarea {
 }
 
 
+/* RESOURCES */
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}
+
+
 /* MODAL */
 
 .modal-open[style="padding-right: 17px;"] .navbar-fixed-top,
@@ -560,6 +600,10 @@ textarea {
 
 section {
     padding: 80px 0;
+}
+
+section.main-content {
+    padding: 40px 0;
 }
 
 .section-header {
@@ -636,6 +680,11 @@ section h3 {
     .testimonial blockquote {
         margin-top: 20px;
     }
+    .resource {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -646,5 +695,9 @@ section h3 {
     }
     .instructor .num span {
         font-size: 16px;
+    }
+    .resource {
+        width: 100%;
+        margin-right: 0;
     }
 }
